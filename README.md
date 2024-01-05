@@ -12,7 +12,7 @@
 
 Данные, используемые в проекте, взяты с платформы Kaggle. Данные содержат информацию о 1338 людях, такую как возраст, пол, индекс массы тела, количество детей, курение, регион и стоимость страховки. Данные хранятся в формате CSV и могут быть скачаны по следующей ссылке:
 
-[Medical Cost Personal Datasets | Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+[Medical Cost Personal Datasets | Kaggle]([https://www.kaggle.com/datasets/mirichoi0218/insurance](https://www.kaggle.com/code/theoneandonlyp/medical-cost-personal-datasets#Data-Setup))
 
 ## Стек
 
@@ -32,6 +32,9 @@
 ## Результаты предсказаний
 
 Mean Absolute Error: 4011.45
+
 Mean Squared Error: 33342497.83
+
 Root Mean Squared Error: 5774.30
+
 R-squared: 0.79
