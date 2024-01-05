@@ -12,7 +12,7 @@
 
 Данные, используемые в проекте, взяты с платформы Kaggle. Данные содержат информацию о 1338 людях, такую как возраст, пол, индекс массы тела, количество детей, курение, регион и стоимость страховки. Данные хранятся в формате CSV и могут быть скачаны по следующей ссылке:
 
-[Medical Cost Personal Datasets | Kaggle]([https://www.kaggle.com/datasets/mirichoi0218/insurance](https://www.kaggle.com/code/theoneandonlyp/medical-cost-personal-datasets#Data-Setup))
+[Medical Cost Personal Datasets | Kaggle](https://www.kaggle.com/code/theoneandonlyp/medical-cost-personal-datasets#Data-Setup)
 
 ## Стек
 
@@ -27,6 +27,7 @@
 
 ## Авторы
 Старков Елисей Вячеславович, группа - РИМ-220907
+
 Алимпиев Ярослав Олегович, группа - РИМ-220908
 
 ## Результаты предсказаний
