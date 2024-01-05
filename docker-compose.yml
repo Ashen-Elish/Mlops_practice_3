@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  web:
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./web:/usr/share/nginx/html
+    depends_on:
+      - model
+  model:
+    build: ./model
+    environment:
+      - DATASET_URL=https://www.kaggle.com/code/theoneandonlyp/medical-cost-personal-datasets
+    volumes:
+      - data:/data
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=secret
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+networks:
+  default:
+
+volumes:
+  data:
+  db-data:
